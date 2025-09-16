@@ -4,19 +4,19 @@
 
 ## Name: Mohan K
 
- - 📧 Email: mohankalimuthu2004@gmail.com
+   - 📧 Email: mohankalimuthu2004@gmail.com
 
- - 🔗 LinkedIn: https://www.linkedin.com/in/mohan-kalimuthu/
+   - 🔗 LinkedIn: https://www.linkedin.com/in/mohan-kalimuthu/
 
- - 💻 GitHub: https://github.com/mohankalimuthu
+   - 💻 GitHub: https://github.com/mohankalimuthu
 
 ## 📌 Abstract
 
- - Credit card fraud is a critical issue for financial institutions worldwide.
+   - Credit card fraud is a critical issue for financial institutions worldwide.
 
- - This project develops a machine learning–based fraud detection model to identify fraudulent transactions from a highly imbalanced dataset.
+   - This project develops a machine learning–based fraud detection model to identify fraudulent transactions from a highly imbalanced dataset.
 
- - The aim is to reduce false negatives (frauds predicted as legitimate) while maintaining strong performance across metrics.
+   - The aim is to reduce false negatives (frauds predicted as legitimate) while maintaining strong performance across metrics.
 
 ## 🎯 Project Target
 
@@ -28,71 +28,71 @@
 
 ## 📊 Metrics Required
 
-  📌 **Accuracy** → Overall correctness of predictions.
+   📌 **Accuracy** → Overall correctness of predictions.
 
-  📌 **Precision** → Fraction of predicted frauds that were actually frauds.
+   📌 **Precision** → Fraction of predicted frauds that were actually frauds.
 
-  📌 **Recall** → Fraction of actual frauds correctly identified.
+   📌 **Recall** → Fraction of actual frauds correctly identified.
 
-  📌 **F1-score** → Harmonic mean of precision & recall.
+   📌 **F1-score** → Harmonic mean of precision & recall.
 
-  📌 **ROC-AUC Score** → Ability to distinguish fraud from non-fraud.
+   📌 **ROC-AUC Score** → Ability to distinguish fraud from non-fraud.
 
-  📌 **Confusion Matrix** → Visualization of classification results.
+   📌 **Confusion Matrix** → Visualization of classification results.
 
 ## 🤖 Fraud Detection Workflow
 
-  - Data Preprocessing
+   - Data Preprocessing
 
-  - Feature scaling
+   - Feature scaling
 
-  - Handling missing values
+   - Handling missing values
 
-  - Balancing dataset (SMOTE / undersampling)
+   - Balancing dataset (SMOTE / undersampling)
 
-  - Exploratory Data Analysis (EDA)
+   - Exploratory Data Analysis (EDA)
 
-  - Distribution of fraud vs legitimate transactions
+   - Distribution of fraud vs legitimate transactions
 
-  - Correlation analysis
+   - Correlation analysis
 
-  - Model Training
+   - Model Training
 
-  - Logistic Regression
+   - Logistic Regression
 
-  - Random Forest
+   - Random Forest
 
-  - XGBoost
+   - XGBoost
 
-  - Support Vector Machine (optional)
+   - Support Vector Machine (optional)
 
-  - Prediction & Evaluation
+   - Prediction & Evaluation
 
-  - Model testing on unseen data
+   - Model testing on unseen data
 
-  - Performance metrics and visualization
+   - Performance metrics and visualization
 
 ## 🧩 Models Used & Example Results
 
-🔹 Logistic Regression → ~94% accuracy
+   🔹 Logistic Regression → ~94% accuracy
 
-🔹 Random Forest → ~97% accuracy
+   🔹 Random Forest → ~97% accuracy
 
-🔹 XGBoost → ~98% ROC-AUC
+   🔹 XGBoost → ~98% ROC-AUC
 
-🔹 SVM (optional) → Used for baseline comparison
+  🔹 SVM (optional) → Used for baseline comparison
 
 ## 📂 Project Structure
 
-📁 data/ → Dataset (creditcard.csv)
+    📁 data/ → Dataset (creditcard.csv)
 
-📁 code/ → Jupyter Notebook (credit_card_fraud_detection.ipynb)
+    📁 code/ → Jupyter Notebook (credit_card_fraud_detection.ipynb)
 
-📁 models/ → Trained models (model.pkl)
+    📁 models/ → Trained models (model.pkl)
 
 ## ✨ Features
 
-✔️ Real-world imbalanced dataset (fraud vs non-fraud).
+ ✔️ Real-world imbalanced dataset (fraud vs non-fraud).
 
 ✔️ Preprocessing with feature scaling and balancing.
 
